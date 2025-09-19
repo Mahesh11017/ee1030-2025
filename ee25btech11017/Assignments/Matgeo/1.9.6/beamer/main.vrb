@@ -1,0 +1,16 @@
+\frametitle{Python Code - for plotting}
+    \begin{lstlisting}
+# Plot lines from Q to P and Q to R points
+plt.plot([Q[0], P[0]], [Q[1], P[1]], 'r--')
+plt.plot([Q[0], R1[0]], [Q[1], R1[1]], 'g--')
+plt.plot([Q[0], R2[0]], [Q[1], R2[1]], 'g--')
+
+plt.axhline(y=y_R, color='gray', linestyle=':')
+
+plt.legend()
+plt.title('Points Equidistant from Q at y=6')
+plt.grid(True)
+plt.axis('equal')
+plt.show()
+
+\end{lstlisting}
