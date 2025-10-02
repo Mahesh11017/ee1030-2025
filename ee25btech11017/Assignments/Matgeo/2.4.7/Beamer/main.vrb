@@ -1,0 +1,12 @@
+\frametitle{Python code}
+\begin{lstlisting}
+
+ax.set_zlim([0, max_val])
+ax.set_xlabel('X axis')
+ax.set_ylabel('Y axis')
+ax.set_zlabel('Z axis')
+ax.legend()
+plt.title('Vector Projection: a on b')
+plt.show()
+
+\end{lstlisting}
