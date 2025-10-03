@@ -1,0 +1,11 @@
+\frametitle{Python code}
+\begin{lstlisting}
+
+ax.set_xlabel('X-axis')
+ax.set_ylabel('Y-axis')
+ax.set_zlabel('Z-axis')
+ax.set_title(f'Triangle OAB with Area = {area:.4f}')
+ax.legend()
+plt.show()
+
+\end{lstlisting}
