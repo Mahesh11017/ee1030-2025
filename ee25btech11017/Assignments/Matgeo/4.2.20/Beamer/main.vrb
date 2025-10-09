@@ -1,0 +1,17 @@
+\frametitle{Python Code (continued)}
+\begin{lstlisting}
+# Plot normal vector starting from point (3, 1.5) on the line (3 + 2*1.5 = 6)
+origin = np.array([3, 1.5])
+
+plt.quiver(*origin, *n, color='red', scale=3, label='Normal vector n = (1, 2)')
+plt.quiver(*origin, *d, color='green', scale=3, label='Direction vector d = (2, -1)')
+
+plt.xlim(0, 7)
+plt.ylim(0, 5)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Line with normal and direction vectors')
+plt.grid(True)
+plt.legend()
+plt.show()
+\end{lstlisting}
