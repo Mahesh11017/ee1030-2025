@@ -1,0 +1,12 @@
+\frametitle{Python code}
+\begin{lstlisting}
+
+ax.set_xlabel('X-axis')
+ax.set_ylabel('Y-axis')
+ax.set_zlabel('Z-axis')
+ax.set_title('Vectors V, W and Cross Product V x W')
+
+ax.legend()
+plt.show()
+
+\end{lstlisting}
