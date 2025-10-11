@@ -1,0 +1,13 @@
+\frametitle{Python Code (continued)}
+\begin{lstlisting}
+ax.scatter(*point1, color='blue')
+ax.scatter(*point2, color='green')
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+ax.set_title(f'Distance between lines = {distance:.4f}')
+ax.legend()
+plt.show()
+
+\end{lstlisting}
